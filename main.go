@@ -64,5 +64,5 @@ func main() {
 	rcors := c.Handler(r)
 
 	utils.GetMainLogger().Infof("start server\n")
-	log.Fatal(http.ListenAndServe(":8080", rcors))
+	log.Fatal(http.ListenAndServe(":80", rcors))
 }
