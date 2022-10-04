@@ -14,7 +14,7 @@ RUN go build -o /server
 
 RUN mkdir /tmp/www
 
-EXPOSE 8080
+EXPOSE 80
 
 
 CMD ["/server","/tmp/www"]
