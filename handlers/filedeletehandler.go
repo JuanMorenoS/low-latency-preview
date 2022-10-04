@@ -6,7 +6,7 @@ import (
 	"path"
 	"time"
 
-	"github.com/streamlinevideo/low-latency-preview/utils"
+	"github.com/JuanMorenoS/low-latency-preview/utils"
 )
 
 // UploadHandler handles for http delete

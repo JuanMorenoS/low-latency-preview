@@ -8,7 +8,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/streamlinevideo/low-latency-preview/utils"
+	"github.com/JuanMorenoS/low-latency-preview/utils"
 )
 
 type FileDownloadHandler struct {
