@@ -365,7 +365,7 @@ func (l *DashPlayHandler) servePlayer(w http.ResponseWriter, req *http.Request) 
 			{
 			
 				loadStartTime = new Date().getTime();
-				var url = segmentURL.replace("$Number%05d$",pad(segmentIndex));
+				var url = segmentURL.replace("$Number$",pad(segmentIndex));
 				downloadUsingFetch(url, segmentIndex, function( bytelength, context) {
 						var delta = (new Date().getTime()) - loadStartTime;
 						segmentKbps = Math.round(bytelength*8/delta);
