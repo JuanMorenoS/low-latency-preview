@@ -6,9 +6,7 @@ WORKDIR $GOPATH/src/github.com/streamlinevideo/low-latency-preview
 
 COPY . .
 
-RUN go mod init lowlatency
-
-RUN go mod tidy
+RUN go mod download && go mod verify
 
 RUN go build -o /server
 

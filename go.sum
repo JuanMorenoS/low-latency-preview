@@ -1,5 +1,3 @@
-github.com/JuanMorenoS/low-latency-preview v0.0.0-20221004233413-376e6f73b5a0 h1:WJXiwsoCA/VDI/deF96tiaLPn1c9MVSPxFUbQdTo59k=
-github.com/JuanMorenoS/low-latency-preview v0.0.0-20221004233413-376e6f73b5a0/go.mod h1:GO36RkiH2lajjOPO5t6OEMHijDLTQzVCDals6zflsS8=
 github.com/gorilla/mux v1.8.0 h1:i40aqfkR1h2SlN9hojwV5ZA91wcXFOvkdNIeFDP5koI=
 github.com/gorilla/mux v1.8.0/go.mod h1:DVbg23sWSpFRCP0SfiEN6jmj59UnW/n46BH5rLB71So=
 github.com/juju/ansiterm v0.0.0-20180109212912-720a0952cc2a h1:FaWFmfWdAUKbSCtOU2QjDaorUexogfaMgbipgYATUMU=
