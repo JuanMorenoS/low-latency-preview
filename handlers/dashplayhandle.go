@@ -112,7 +112,7 @@ func (l *DashPlayHandler) servePlayer(w http.ResponseWriter, req *http.Request) 
 				baseURL = document.querySelector("#mpd").value.split(".mpd")[0];
 				baseURL = baseURL.substring(0,baseURL.lastIndexOf("/")+1);
 				log("baseURL=" + baseURL);
-				var segTemp = mpd.getElementsByTagName("SegmentTemplate").length > 1 ? mpd.getElementsByTagName("SegmentTemplate")[1]: mpd.getElementsByTagName("SegmentTemplate")[0];
+				var segTemp = mpd.getElementsByTagName("SegmentTemplate").length > 1 ? mpd.getElementsByTagName("SegmentTemplate")[0]: mpd.getElementsByTagName("SegmentTemplate")[0];
 				var initName = segTemp.getAttribute("initialization");
 				log("initname=" + initName);
 				availabilityTimeOffset = Number(segTemp.getAttribute("availabilityTimeOffset"))*1000;
